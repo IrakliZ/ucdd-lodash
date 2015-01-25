@@ -70,6 +70,7 @@ function test_every() {
     test('_.every(users, function(x) { return x.age > 50 })')
     test('_.every(users, function(x) { return x.age < 38 })')
     test('_.every(users, function(x) { return x.admin })')
+    test('_.every(users, function(x) { return x.age > 30 })')
 }
 
 function test_find() {
